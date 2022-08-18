@@ -5,18 +5,17 @@ rule all:
         expand("sigs/{g}.sig.gz", g=SEQUENCES),
         expand("mastiff_out/{g}.x.sra.csv", g=SEQUENCES)
 
-
 rule sketch:
     input:
         "sequences/{g}.fa.gz"
     output:
         "sigs/{g}.sig.gz"
-    # conda
+    conda:
+        "conda/sourmash.yml"
     shell: """
         sourmash sketch dna -p k=21,noabund,scaled=1000 {input} \
              --name-from-first -o {output}
     """
-        
         
 rule run_mastiff:
     input:
@@ -27,4 +26,3 @@ rule run_mastiff:
         curl -H "Content-Type: application/json" --data-binary \
               @{input} https://mastiff.sourmash.bio/search -o {output}
     """
-
