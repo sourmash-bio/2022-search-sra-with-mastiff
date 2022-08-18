@@ -1,0 +1,5 @@
+*~
+*.pyc
+mastiff_out/
+sigs/
+.snakemake/
