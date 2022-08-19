@@ -2,7 +2,7 @@
 
 This repo provides a workflow that uses
 [sourmash](https://github.com/sourmash-bio/sourmash) to build
-FracMinHash sketches and search the ~700,000 public metagenomes in the
+FracMinHash sketches and search ~485,000 public metagenomes in the
 SRA with them using
 [mastiff](https://github.com/sourmash-bio/mastiff).
 
