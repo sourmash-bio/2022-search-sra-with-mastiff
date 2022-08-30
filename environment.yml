@@ -1,0 +1,9 @@
+name: 2022-search-sra-with-mastiff
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - snakemake-minimal=5.20.1
+  - pandas=1.0.5
+  - sourmash>=4.4.3,<5
