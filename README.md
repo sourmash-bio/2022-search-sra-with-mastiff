@@ -21,4 +21,4 @@ snakemake -j 1 --use-conda
 
 and look in `mastiff_out/`.
 
-![sourmash logo](https://sourmash.readthedocs.io/en/latest/_static/logo.png)
+[![sourmash logo](https://sourmash.readthedocs.io/en/latest/_static/logo.png)](https://sourmash.readthedocs.io/)
