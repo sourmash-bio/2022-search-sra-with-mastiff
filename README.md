@@ -1,6 +1,6 @@
 # Search the SRA with mastiff
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sourmash-bio/2022-search-sra-with-mastiff/stable)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sourmash-bio/2022-search-sra-with-mastiff/stable?labpath=interpret-sra-live.ipynb)
 
 This repo provides a workflow that uses
 [sourmash](https://github.com/sourmash-bio/sourmash) to build
