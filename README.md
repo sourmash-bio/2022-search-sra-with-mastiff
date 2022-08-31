@@ -5,13 +5,19 @@
 >"That's a beautiful collection of public data you have here, it would
 >be a shame if someone made it searchable." -- paraphrased
 
-This repo provides a workflow that uses
+This repo provides examples that use
 [sourmash](https://github.com/sourmash-bio/sourmash) to build
 FracMinHash sketches and search ~485,000 public metagenomes in the
-SRA with them using
+SRA with them in real time, using
 [mastiff](https://github.com/sourmash-bio/mastiff).
 
-## Quickstart
+## Quickstart - Jupyter Notebook
+
+Click on the binder button below, and then select "Run... Run all cells", or hit the fast-forward button.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sourmash-bio/2022-search-sra-with-mastiff/stable?labpath=interpret-sra-live.ipynb)
+
+## Quickstart - snakemake
 
 Deposit sequences of interest in `sequences/`. Then run:
 
