@@ -1,6 +1,6 @@
 # Search the SRA with mastiff
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sourmash-bio/2022-search-sra-with-mastiff/stable?labpath=interpret-sra-live.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sourmash-bio/2022-search-sra-with-mastiff/main?labpath=interpret-sra-live.ipynb)
 
 >"That's a beautiful collection of public data you have here, it would
 >be a shame if someone made it searchable." -- paraphrased
