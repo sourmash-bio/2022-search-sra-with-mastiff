@@ -4,6 +4,6 @@ channels:
   - bioconda
   - defaults
 dependencies:
-  - snakemake-minimal=5.20.1
-  - pandas=1.0.5
+  - snakemake-minimal
+  - pandas
   - sourmash>=4,<5
